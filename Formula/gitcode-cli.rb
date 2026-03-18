@@ -98,6 +98,18 @@ class GitcodeCli < Formula
     virtualenv_install_with_resources
   end
 
+  def caveats
+    <<~EOS
+      If your shell already defines `gc` as an alias, remove or override it.
+
+      A safe shell profile snippet is:
+        unalias gc 2>/dev/null || true
+
+      Then open a new shell and run:
+        gc version
+    EOS
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/gc version")
   end
