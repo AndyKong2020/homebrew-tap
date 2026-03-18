@@ -3,8 +3,8 @@ class GitcodeCli < Formula
 
   desc "GitHub CLI-style command line interface for GitCode"
   homepage "https://github.com/AndyKong2020/gitcode-cli"
-  url "https://github.com/AndyKong2020/gitcode-cli/releases/download/v0.1.2/gitcode_cli-0.1.2.tar.gz"
-  sha256 "fce70eecb8cd73b5331ae1936f51bfeff37aa020b1c979d6d3251a982f1b8dfa"
+  url "https://github.com/AndyKong2020/gitcode-cli/releases/download/v0.1.3/gitcode_cli-0.1.3.tar.gz"
+  sha256 "1fb01b081bfa558da205a6a8950e0ec126f70d368fb054050b2e9112a70c3a91"
   license "MIT"
 
   depends_on "python@3.12"
